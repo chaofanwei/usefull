@@ -2,9 +2,11 @@
 
 ##常用算法
 
->cn.myroute.algo.MergeTest  归并排序
+>cn.myroute.algo.MergeTest  归并排序  N * log(2,n)
 >
->cn.myroute.algo.QuickTest  快排
+>cn.myroute.algo.QuickTest  快排  N * log(2,n)
+>
+>cn.myroute.algo.HeapSort  堆排  N * log(2,n)
 >
 
 
@@ -13,7 +15,7 @@
 
 ###1、交换
 
->利用异或 原理， A ^ B ^ A = B , A ^ B ^ A ^ B = 0
+>利用异或 原理， A ^ B ^ A = B , A ^ B ^ A ^ B = 0  ，特点是不需要新建变量即可实现交换
 
 	void swap(int[] dat ,int i,int j){
 		dat[i]=dat[i] ^ dat[j];
@@ -56,6 +58,9 @@
     
 >
 >扩展：千分比，百分比，32位，128位 等等。
+
+
+###3、 >> <<  >>> 左移1位是×2，右移1位是÷ 2
 
 
     
