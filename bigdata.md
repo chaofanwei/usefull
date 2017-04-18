@@ -18,3 +18,11 @@
 
 [source link](http://www.cnblogs.com/xudong-bupt/archive/2013/03/20/2971262.html)
 
+
+###2、数组中遍历一次求出现过半的数
+
+原理：取两个数，若不一样，则丢弃（因为没有过半）；若一样，则计算出现的次数。
+
+参看 cn.myroute.algo.OverHalf   (不支持没有出现一个过半的数的数组)
+
+

@@ -8,7 +8,8 @@
 >
 >cn.myroute.algo.HeapSort  堆排  N * log(2,n)
 >
-
+>cn.myroute.algo.SkipList  跳表 log(2,n) 查找
+>
 
 
 ##神代码
