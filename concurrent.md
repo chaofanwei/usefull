@@ -1,6 +1,6 @@
-#aqs  AbstractQueuedSynchronizer
+# aqs  AbstractQueuedSynchronizer
 
-###LockSupport
+### LockSupport
 
 详见 cn.myroute.aqs.AqsCommon
 
@@ -14,7 +14,7 @@ LockSupport.parkUntil(Object, long)
 LockSupport.parkUntil(long)
 LockSupport.unpark(Thread)
             
-###ReentrantLock
+### ReentrantLock
 
 详见 cn.myroute.aqs.AqsCommon
 
@@ -28,7 +28,7 @@ http://www.blogjava.net/xylz/archive/2010/07/06/325390.html
 http://ifeve.com/java-special-troops-aqs/
 
 
-###thread.interrupt
+### thread.interrupt
 
 详见 cn.myroute.aqs.InterruptCommon
 
